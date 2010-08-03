@@ -1,0 +1,98 @@
+#include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <pthread.h>
+#include <semaphore.h>
+
+using namespace std;
+
+void *oReady(void*);
+void *hReady(void*);
+void *generateHAtoms(void*);
+void *generateOAtoms(void*);
+void *makeWater(void*);
+
+int h_atoms = 16;
+int o_atoms = 9;
+int h_ready = 0;
+int o_ready = 0;
+sem_t lock1;
+sem_t lock2;
+pthread_t* oThreads;
+pthread_t* hThreads;
+
+int main(){
+	pthread_t thread1, thread2, thread3;
+	oThreads = new pthread_t[o_atoms];
+	hThreads = new pthread_t[h_atoms];
+	cout<<"Entering program. Creating threads...."<<endl;
+	fflush(stdout);
+
+	sem_init(&lock1, 0, 1);
+	sem_init(&lock2, 0, 1);
+	pthread_create(&thread1, NULL, generateHAtoms, NULL);
+	pthread_create(&thread2, NULL, generateOAtoms, NULL);
+	pthread_create(&thread3, NULL, makeWater, NULL);
+	pthread_join(thread1, NULL);
+	pthread_join(thread2, NULL);
+	pthread_join(thread3, NULL);
+	sem_destroy(&lock2);
+	sem_destroy(&lock1);
+
+	exit(0);
+}
+
+void *oReady(void *arg){
+	sem_wait(&lock2);
+	o_ready++;
+	cout<<endl<<"O:"<<o_ready;
+	sem_post(&lock2);
+	return NULL;
+}
+
+void *hReady(void *arg){
+	sem_wait(&lock1);
+	h_ready++;
+	cout<<endl<<"H: "<<h_ready;
+	sem_post(&lock1);
+	return NULL;
+}
+
+void *generateOAtoms(void *arg){
+	for(int i = 0; i < o_atoms; i++){
+		sleep(1);
+		pthread_create(&oThreads[i], NULL, oReady, NULL);
+	}
+	return NULL;
+}
+
+void *generateHAtoms(void *arg){
+	for(int i = 0; i < h_atoms; i++){
+		pthread_create(&hThreads[i], NULL, hReady, NULL);
+	}
+	return NULL;
+}
+
+void *makeWater(void *arg){
+	int no_of_water = 1;
+	while(true){
+		sem_wait(&lock2);
+		sem_wait(&lock1);
+		bool x = (h_ready >= 2 && o_ready >=1);
+		sem_post(&lock2);
+		sem_post(&lock1);
+		if(x){
+			cout<<endl<<"Water generated: "<<no_of_water++;
+			fflush(stdout);
+			sem_wait(&lock2);
+			sem_wait(&lock1);
+			h_ready -= 2;
+			o_ready--;
+			sem_post(&lock2);
+			sem_post(&lock1);
+		}
+	}
+	return NULL;
+}

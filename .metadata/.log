@@ -1,0 +1,354 @@
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:05.202
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:05.202
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.202
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.202
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.202
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.202
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.202
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:05.203
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:05.203
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.203
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.203
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.203
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.203
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.203
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:05.207
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:05.207
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.208
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.208
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.208
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.208
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.208
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:05.262
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:05.262
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.262
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.262
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.262
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.262
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:05.262
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:36.719
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:36.719
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:36.719
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:36.719
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:36.719
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:36.719
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:36.719
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2010-07-28 22:26:44.700
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2010-07-28 22:26:44.701
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:44.701
+!MESSAGE "Remote System Explorer Core" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:44.701
+!MESSAGE "RSE DStore Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:44.701
+!MESSAGE "RSE FTP Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:44.701
+!MESSAGE "RSE Local Services" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2010-07-28 22:26:44.701
+!MESSAGE "RSE SSH Services" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.osgi 2 1 2010-07-28 22:33:08.034
+!MESSAGE NLS unused message: com.ibm.etools.systems.ui.uda.resourceType in: org.eclipse.rse.internal.useractions.ui.uda.SystemUDAResources
+!SESSION 2010-07-29 17:50:57.069 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2010-07-29 17:51:17.971
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-29 17:51:17.971
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2010-07-29 18:02:34.984
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/sh1n0b1/.workspace/EC-353/Debug/EC-353 not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:83)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 104 2010-07-29 18:02:34.984
+!MESSAGE /home/sh1n0b1/.workspace/EC-353/Debug/EC-353 not found
+!STACK 0
+java.io.FileNotFoundException: /home/sh1n0b1/.workspace/EC-353/Debug/EC-353 not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:83)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:69)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-07-30 22:25:47.153 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-07-30 22:25:51.082
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-07-30 22:26:07.169
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-30 22:26:07.169
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-07-31 16:31:45.130 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-07-31 16:31:48.853
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-07-31 16:32:06.381
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-31 16:32:06.381
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:20:43.057
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:20:59.019
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:22:20.728
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:23:16.523
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:23:33.263
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-07-31 17:23:43.776
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:66)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+!SESSION 2010-07-31 23:00:10.799 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-07-31 23:00:28.818
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-07-31 23:00:38.172
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-31 23:00:38.172
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-02 15:30:06.578 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-08-02 15:30:24.227
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-08-02 15:30:36.227
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-02 15:30:36.227
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

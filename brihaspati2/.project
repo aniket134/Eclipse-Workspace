@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>brihaspati2</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>build.xml</name>
+			<type>1</type>
+			<location>/home/sh1n0b1/brihaspati/tdk-2.3_01/webapps/brihaspati2/WEB-INF/build/build.xml</location>
+		</link>
+		<link>
+			<name>classes</name>
+			<type>2</type>
+			<location>/home/sh1n0b1/brihaspati/tdk-2.3_01/webapps/brihaspati2/WEB-INF/classes</location>
+		</link>
+		<link>
+			<name>java</name>
+			<type>2</type>
+			<location>/home/sh1n0b1/brihaspati/tdk-2.3_01/webapps/brihaspati2/WEB-INF/src/java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

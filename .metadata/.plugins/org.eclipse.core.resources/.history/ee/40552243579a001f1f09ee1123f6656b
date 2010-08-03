@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+#include <pthread.h>
+#include <semaphore.h>
+#include <string>
+
+using namespace std;
+
+void *thread_function(void *arg);
+sem_t lock;
+
+int main(){
+	string cars = "10101000111000110101111000110111010";
+	int len = cars.length();
+	pthread_t* mythread = new pthread_t[len];
+	for(int i = 0; i < len; i++){
+		if(pthread_create(&mythread, NULL, thread_function, NULL)){
+			cout<<"Error creating thread.\n";
+			abort();
+		}
+	}
+
+	if(pthread_join(mythread, NULL)){
+		cout<<"Error joining threads.\n";
+		abort();
+	}
+	exit(0);
+}
+
+void *thread_function(void *arg){
+	int i;
+	for(i = 0; i < 20; i++){
+		cout<<"here: "<<i;
+		sleep(1);
+	}
+	return NULL;
+}

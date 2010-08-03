@@ -1,0 +1,334 @@
+<html>
+<head>
+<script type="text/javascript" src="beginning.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<br />
+<script type="text/javascript">REDIPS.drag.drop_option = 'switch';</script>
+<!-- initialize drag and drop -->
+<script type="text/javascript">
+	var board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]], // board array
+	xo = {x: 1, o: -1}; // define values for X and O elements
+
+	// onload event
+	window.onload = function () {
+		// initialization
+		REDIPS.drag.init();
+		// define border for disabled element (default is dotted)
+		REDIPS.drag.border_disabled = 'none';
+		// dragged elements can be placed to the empty cells only
+		REDIPS.drag.drop_option = 'single';
+		// toggle X and O elements on the left side
+		toggle_xo();
+		// declare tasks after element is dropped
+		REDIPS.drag.myhandler_dropped = function () {
+			var obj = REDIPS.drag.obj, // current element (cloned element)
+				obj_old = REDIPS.drag.obj_old, // previous element (this is clone element)
+				tac = REDIPS.drag.target_cell; // target cell
+			// disable dropped DIV element
+			REDIPS.drag.enable_drag(false, obj.id);
+			// toggle X and O elements on the left
+			toggle_xo();
+			// check board (obj_old.id can be 'x' or 'o')
+			check_board(obj_old.id, tac.parentNode.rowIndex, tac.cellIndex);
+		};
+	};
+</script>
+</head>
+<body onload="REDIPS.drag.init()">
+<script type="text/javascript">REDIPS.drag.drop_option = 'switch';</script>
+<p align="right"><i>Dated: April.15, 2010</i></p>
+<h2 align="center">Indian Institute of Technology, Roorkee</h2>
+<h3 align="center">Spring Semester 2010-2011</h3>
+<p align="center">B1
+<div id="save"><input type="button" value="Save" class="button"
+	onclick="save()" title="Send content to the server" /><span
+	class="message_line">Check availability</span></div>
+</p>
+<br />
+<div id="main_container">
+	
+	<div id="left">
+		<table id="table1">
+			<colgroup>
+				<col width="100"/>
+			</colgroup>
+			<tbody>
+				<tr><td class="dark"><div id="x" class="drag green clone">X</div></td></tr>
+				<tr><td class="dark"><div id="o" class="drag green clone">O</div></td></tr>
+			</tbody>
+		</table>
+	</div><!-- left container -->
+	
+	<div id="right">
+	<table id="table2" border="2" align="center">
+		<tr>
+			<td class="mark dark" width="120">Time\Day</td>
+			<td class="mark dark" align="center" width="120">Monday</td>
+			<td class="mark dark" align="center" width="120">Tuesday</td>
+			<td class="mark dark" align="center" width="120">Wednesday</td>
+			<td class="mark dark" align="center" width="120">Thursday</td>
+			<td class="mark dark" align="center" width="120">Friday</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">9-10 AM</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">LC1<br />
+			V2<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">LE1<br />
+			V2<br />
+			PK</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">10-11 AM</td>
+			<td align="center" width="120">
+			<div class="drag">LC1<br />
+			V4<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">11-12 Noon</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">LC1<br />
+			V2<br />
+			PK</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">12-1 PM</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">LE1<br />
+			V10<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">TC1<br />
+			L4<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">1-2 PM</td>
+			<td class="mark dark" align="center" width="120" colspan="5">
+			Break</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">2-3 PM</td>
+			<td align="center" width="120">
+			<div class="drag">LE1<br />
+			V2<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">PC5<br />
+			L5<br />
+			SPY</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">LE1<br />
+			V10<br />
+			PK</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">3-4 PM</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">PC5<br />
+			L5<br />
+			SPY</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">4-5 PM</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag">PC5<br />
+			L5<br />
+			SPY</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="mark dark" align="center" width="120">5-6 PM</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+			<td align="center" width="120">
+			<div class="drag"><br />
+			<br />
+			<br />
+			</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+</div>
+</body>
+</html>

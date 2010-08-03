@@ -1,0 +1,7 @@
+#Sat Jul 31 23:02:06 IST 2010
+tomcatDir=/home/sh1n0b1/brihaspati/tdk-2.3_01
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=/home/sh1n0b1/brihaspati/tdk-2.3_01/webapps
+tomcatVersion=tomcatV41
+tomcatConfigFile=/home/sh1n0b1/brihaspati/tdk-2.3_01/conf/server.xml

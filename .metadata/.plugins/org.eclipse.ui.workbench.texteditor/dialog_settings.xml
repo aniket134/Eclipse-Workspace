@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="316" key="DIALOG_WIDTH"/>
+		<item value="267" key="DIALOG_Y_ORIGIN"/>
+		<item value="426" key="DIALOG_HEIGHT"/>
+		<item value="822" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="pthread_create" key="selection"/>
+		<list key="findhistory">
+			<item value="_beginthread"/>
+			<item value="LeaveCriticalSection"/>
+			<item value="EnterCriticalSection"/>
+			<item value="cs"/>
+			<item value="SHIKHA"/>
+			<item value="shikha"/>
+			<item value="&amp;&amp;"/>
+			<item value="save"/>
+		</list>
+		<list key="replacehistory">
+			<item value="pthread_create"/>
+			<item value="sem_post"/>
+			<item value="sem_wait"/>
+			<item value="lock"/>
+			<item value="||"/>
+			<item value="["/>
+			<item value="[i][j]"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="246" key="DIALOG_Y_ORIGIN"/>
+		<item value="367" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

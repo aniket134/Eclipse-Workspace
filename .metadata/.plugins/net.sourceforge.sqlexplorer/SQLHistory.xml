@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<history>
+  <element execution-count="1" last-execution-time="1277565630113" alias="MySQL" user-name="root">create database eclipse1</element>
+  <element execution-count="1" last-execution-time="1277565607912" alias="MySQL" user-name="root">drop database eclipse1</element>
+  <element execution-count="1" last-execution-time="1277565601973" alias="MySQL" user-name="root">drop eclipse1</element>
+  <element execution-count="1" last-execution-time="1277565584464" alias="MySQL" user-name="root">drop table video_lec_random_video</element>
+  <element execution-count="1" last-execution-time="1277565578394" alias="MySQL" user-name="root">drop table video_lec_course_video</element>
+  <element execution-count="1" last-execution-time="1277565570101" alias="MySQL" user-name="root">drop table video_lec_coursevideo_lec_course_video</element>
+  <element execution-count="1" last-execution-time="1277565565511" alias="MySQL" user-name="root">drop table video_lec_course</element>
+  <element execution-count="1" last-execution-time="1277565537296" alias="MySQL" user-name="root">drop table video_lec_chap_info</element>
+  <element execution-count="1" last-execution-time="1277565517179" alias="MySQL" user-name="root">drop table ilike 'video%'</element>
+  <element execution-count="1" last-execution-time="1277565502123" alias="MySQL" user-name="root">drop table video_lec*</element>
+  <element execution-count="1" last-execution-time="1277565487317" alias="MySQL" user-name="root">drop table video</element>
+  <element execution-count="1" last-execution-time="1277565468933" alias="MySQL" user-name="root">drop table *</element>
+  <element execution-count="2" last-execution-time="1277489406469" alias="MySQL" user-name="root">select course_code, course_type, events_per_week, duration, computer, projector, venue_code, scheduled from `timetable2`.`course`</element>
+</history>

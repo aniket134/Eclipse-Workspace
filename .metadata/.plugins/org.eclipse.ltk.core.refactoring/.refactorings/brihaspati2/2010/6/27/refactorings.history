@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tableFor&apos; in &apos;org.iitk.brihaspati.modules.timetable.PDFGenerator.getHTMLInit(...)&apos; to &apos;name&apos;&#x0A;- Original project: &apos;brihaspati2&apos;&#x0A;- Original element: &apos;org.iitk.brihaspati.modules.timetable.PDFGenerator.getHTMLInit(String, String).tableFor&apos;&#x0A;- Renamed element: &apos;tableFor&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tableFor&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/java&lt;org.iitk.brihaspati.modules.timetable{PDFGenerator.java[PDFGenerator~getHTMLInit~QString;~QString;@tableFor!26529!26543!26536!26543!QString;" name="name" references="true" stamp="1277901047884" version="1.0"/>
+</session>

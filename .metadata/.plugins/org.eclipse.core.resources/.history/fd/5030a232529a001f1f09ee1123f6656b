@@ -1,0 +1,19 @@
+#include <iostream>
+#include <stdio.h>
+#include <pthread.h>
+#include <string>
+
+using namespace std;
+
+void *thread_function(void *arg){
+	int i;
+	for(i = 0; i < 20; i++){
+		coout<<"here: "<<i;
+		sleep(1);
+	}
+}
+
+int main(){
+
+	cout<<"here\n";
+}
